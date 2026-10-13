@@ -55,7 +55,7 @@ class Ball:
     def draw(self):
         frame_width = self.image.w // 10
         frame_height = self.image.h
-        self.image.clip_draw(0, 0, 41, 41, self.x, self.y)
+        self.image.clip_draw(0, 0, 43423, 41, self.x, self.y)
 
 
 
